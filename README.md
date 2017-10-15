@@ -4,6 +4,8 @@ Welcome to PadmeBot v2.1
 What is PadmeBot?
 PadmeBot is a shitposting bot based on AestheticsBot and inspired by MarcyBot. The original PadmeBot's codebase is so hard to maintain that a new one had to be written.
 
+What's amazing about this version is that the bot is now modular. That's right! You can take any module (pad(module name/feature)lib.py) and then implement it in your own bot (whether it's a Discord bot, an IRC bot or an Ajax bot). Heck, you can even use it for almost anything (desktop gui software, cli software, etc.).
+
 ## Installation
 Copy the token ID of your bot and paste it in cred.txt. After that, launch main.py
 
