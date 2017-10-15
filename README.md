@@ -4,8 +4,7 @@ Welcome to PadmeBot v2.1
 What is PadmeBot?
 PadmeBot is a shitposting bot based on AestheticsBot and inspired by MarcyBot. The original PadmeBot's codebase is so hard to maintain that a new one had to be written.
 
-
-Here are the working commands (for now):
+## Here are the working commands (for now):
 
 $checkem - generate random post digits (you might get doubles)
 
@@ -32,7 +31,7 @@ $weight <mass in kg> - get the weight of a certain mass in Newtons
 
 
 
-Upcoming features/features to be reimplemented:
+## New features/features to be reimplemented:
 
 $anime <category> - get a random anime based on your category
   
