@@ -44,7 +44,7 @@ $createselfbot (username) - creates a selfbot for a certain user
   
 $memes - get memes
 
-$speed (distance) (time) - get speed in km/h
+$speed (distance in km) (time in hours) - get speed in km/h
 
-$kinetic (mass) (height) - get the kinetic energy
+$kinetic (mass in kg) (height in meters) - get the kinetic energy
 
