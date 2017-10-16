@@ -119,5 +119,6 @@ class Main:
         except discord.errors.LoginFailure:
             error_string = 'Login failed. Your token is either invalid or empty. Please check cred.txt if your token is valid or not empty'
             Main.logger.say(error_string)
+            quit()
 
 Main.main()
