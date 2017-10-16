@@ -1,6 +1,6 @@
-# PadmeBot Version 2.1
+# PadmeBot Version 2.11
 
-Welcome to PadmeBot v2.1
+Welcome to PadmeBot v2.11
 
 NOTE: Master branch is outdated. All new/experimental code shall be added in the dev branch.
 
