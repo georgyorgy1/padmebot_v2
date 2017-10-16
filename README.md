@@ -2,7 +2,7 @@
 
 Welcome to PadmeBot v2.1
 
-NOTE: Master branch is outdated. All new/experimental code shall be added in the dev branch.
+Welcome to the dev branch. This is where all new code comes in. Once the bot in the dev branch is considered "stable", a new branch will be created with respect to the new version.
 
 What is PadmeBot?
 PadmeBot is a shitposting bot based on AestheticsBot and inspired by MarcyBot. The original PadmeBot's codebase is so hard to maintain that a new one had to be written.
