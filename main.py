@@ -1,3 +1,5 @@
+#Main program
+#Released under the BSD-new (3 clause) license. See COPYING for more information
 import discord
 import asyncio
 import padshitpostlib
@@ -44,6 +46,21 @@ class Main:
                 string = Main.shitpost.anakin()
                 await Main.bot.send_message(message.channel, string)
                 Main.logger.say(Main.log_string('anakin', message.author, message.author.id, message.channel, message.server))
+
+            if message.content.startswith("who's your daddy?"):
+                string = Main.shitpost.daddy()
+                await Main.bot.send_message(message.channel, string)
+                Main.logger.say(Main.log_string("who's your daddy?", message.author, message.author.id, message.channel, message.server))
+
+            if message.content.startswith('weed'):
+                string = Main.shitpost.weed()
+                await Main.bot.send_message(message.channel, string)
+                Main.logger.say(Main.log_string('weed', message.author, message.author.id, message.channel, message.server))
+
+            if message.content.startswith('lol'):
+                string = Main.shitpost.lol()
+                await Main.bot.send_message(message.channel, string)
+                Main.logger.say(Main.log_string('lol', message.author, message.author.id, message.channel, message.server))
 
             if message.content.startswith('$rand32') or '$random' in message.content:
                 string = Main.math.generate_32bit()
