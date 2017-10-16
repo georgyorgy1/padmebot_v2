@@ -1,0 +1,9 @@
+```
+Commands list:
+m!about - about PadmeBot
+m!commands - see this message (commands)
+m!aesthetics - print aesthetic pictures
+m!dt or m!time - print current time (GMT +8:00)
+m!uptime - check bot uptime
+m!nudes - sends nudes
+```
