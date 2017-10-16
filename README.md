@@ -24,6 +24,10 @@ garlic - bread
 
 anakin - This gives PadmeBot an orgasm
 
+weed - DUDE WEED LMAO
+
+lol - get lol pics
+
 $rand32 / $random - generate a random 32 bit number
 
 $rand64 - generate a random 64 bit number
