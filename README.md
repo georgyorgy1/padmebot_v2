@@ -1,8 +1,8 @@
-# PadmeBot Version 2.11
+# PadmeBot Version 2
 
 Current Build Tag: 20171221-1739
 
-Welcome to PadmeBot v2.11
+Welcome to PadmeBot v2
 
 What is PadmeBot?
 PadmeBot is a shitposting bot based on AestheticsBot and inspired by MarcyBot. The original PadmeBot codebase was so hard to maintain that a new one had to be written.
