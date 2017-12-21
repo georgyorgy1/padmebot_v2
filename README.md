@@ -39,6 +39,8 @@ $cos (number) - get the cos value of a number
 $tan (number) - get the tan value of a number
   
 $weight (mass in kg) - get the weight of a certain mass in Newtons
+
+$about - about the bot
   
 
 
