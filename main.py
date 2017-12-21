@@ -22,6 +22,11 @@ class Main:
     @bot.event
     async def on_message(message):
         try:
+            if message.content.startswith('$about'):
+                string = Main.general.about()
+                await Main.bot.send_message(message.channel, string)
+                Main.logger.say(Main.log_string('$about', message.author, message.author.id, message.channel, message.server))
+
             if message.content.startswith('$checkem'):
                 string = Main.shitpost.check_em()
                 await Main.bot.send_message(message.channel, string)
@@ -95,7 +100,6 @@ class Main:
                 string = str(Main.physics.get_weight(number))
                 await Main.bot.send_message(message.channel, string)
                 Main.logger.say(Main.log_string('$weight', message.author, message.author.id, message.channel, message.server))
-
 
         except Exception as e:
             Main.logger.say(str(e))
