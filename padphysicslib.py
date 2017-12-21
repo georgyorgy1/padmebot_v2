@@ -1,5 +1,5 @@
 #Math Library for PadmeBot
-#Released under the GNU GPL v3.0. See COPYING for more information
+#Released under the BSD-new (3 clause) license. See COPYING for more information
 import math
 import padpreventionlib
 

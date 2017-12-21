@@ -1,3 +1,5 @@
+#Main program
+#Released under the BSD-new (3 clause) license. See COPYING for more information
 import discord
 import asyncio
 import padshitpostlib
@@ -20,6 +22,11 @@ class Main:
     @bot.event
     async def on_message(message):
         try:
+            if message.content.startswith('$about'):
+                string = Main.general.about()
+                await Main.bot.send_message(message.channel, string)
+                Main.logger.say(Main.log_string('$about', message.author, message.author.id, message.channel, message.server))
+
             if message.content.startswith('$checkem'):
                 string = Main.shitpost.check_em()
                 await Main.bot.send_message(message.channel, string)
@@ -44,6 +51,21 @@ class Main:
                 string = Main.shitpost.anakin()
                 await Main.bot.send_message(message.channel, string)
                 Main.logger.say(Main.log_string('anakin', message.author, message.author.id, message.channel, message.server))
+
+            if message.content.startswith("who's your daddy?"):
+                string = Main.shitpost.daddy()
+                await Main.bot.send_message(message.channel, string)
+                Main.logger.say(Main.log_string("who's your daddy?", message.author, message.author.id, message.channel, message.server))
+
+            if message.content.startswith('weed'):
+                string = Main.shitpost.weed()
+                await Main.bot.send_message(message.channel, string)
+                Main.logger.say(Main.log_string('weed', message.author, message.author.id, message.channel, message.server))
+
+            if message.content.startswith('lol'):
+                string = Main.shitpost.lol()
+                await Main.bot.send_message(message.channel, string)
+                Main.logger.say(Main.log_string('lol', message.author, message.author.id, message.channel, message.server))
 
             if message.content.startswith('$rand32') or '$random' in message.content:
                 string = Main.math.generate_32bit()
@@ -79,7 +101,6 @@ class Main:
                 await Main.bot.send_message(message.channel, string)
                 Main.logger.say(Main.log_string('$weight', message.author, message.author.id, message.channel, message.server))
 
-
         except Exception as e:
             Main.logger.say(str(e))
             await Main.bot.send_message(message.channel, 'Whoops, something went wrong. Tell the bot owner to check the logs for more information!')
@@ -102,5 +123,6 @@ class Main:
         except discord.errors.LoginFailure:
             error_string = 'Login failed. Your token is either invalid or empty. Please check cred.txt if your token is valid or not empty'
             Main.logger.say(error_string)
+            quit()
 
 Main.main()

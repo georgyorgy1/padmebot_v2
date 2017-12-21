@@ -1,8 +1,13 @@
-# PadmeBot Version 2.1
-Welcome to PadmeBot v2.1
+# PadmeBot Version 2.11
+
+Current Build Tag: 20171221-1739
+
+Welcome to PadmeBot v2.11
+
+NOTE: Master branch is outdated. All new/experimental code shall be added in this branch.
 
 What is PadmeBot?
-PadmeBot is a shitposting bot based on AestheticsBot and inspired by MarcyBot. The original PadmeBot's codebase is so hard to maintain that a new one had to be written.
+PadmeBot is a shitposting bot based on AestheticsBot and inspired by MarcyBot. The original PadmeBot codebase was so hard to maintain that a new one had to be written.
 
 What's amazing about this version is that the bot is now modular. That's right! You can take any module (pad(module name/feature)lib.py) and then implement it in your own bot (whether it's a Discord bot, an IRC bot or an Ajax bot). Heck, you can even use it for almost anything (desktop gui software, cli software, etc.).
 
@@ -21,6 +26,10 @@ garlic - bread
 
 anakin - This gives PadmeBot an orgasm
 
+weed - DUDE WEED LMAO
+
+lol - get lol pics
+
 $rand32 / $random - generate a random 32 bit number
 
 $rand64 - generate a random 64 bit number
@@ -32,6 +41,8 @@ $cos (number) - get the cos value of a number
 $tan (number) - get the tan value of a number
   
 $weight (mass in kg) - get the weight of a certain mass in Newtons
+
+$about - about the bot
   
 
 

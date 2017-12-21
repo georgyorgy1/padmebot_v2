@@ -1,1 +1,1 @@
-<Enter your credentials here>
+<your token here>
