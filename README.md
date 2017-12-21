@@ -1,5 +1,7 @@
 # PadmeBot Version 2.11
 
+Current Build Tag: 20171221-1739
+
 Welcome to PadmeBot v2.11
 
 NOTE: Master branch is outdated. All new/experimental code shall be added in the dev branch.
