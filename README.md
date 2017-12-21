@@ -1,6 +1,6 @@
 # PadmeBot Version 2
 
-Current Build Tag: 20171221-1739
+Current Build Tag: 20171221-1747
 
 Welcome to PadmeBot v2
 
